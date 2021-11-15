@@ -18,8 +18,8 @@ MIDDLEWARE = (
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'sqlite_database',
+        'ENGINE': 'djongo',
+        'NAME': 'mongo_database',
     }
 }
 

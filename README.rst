@@ -14,7 +14,7 @@ Add a ``VersionField`` and inherit from ``VersionedMixin``.
 
 .. code-block:: python
 
-    from ool import VersionField, VersionedMixin
+    from dol import VersionField, VersionedMixin
 
     class MyModel(VersionedMixin, models.Model):
         version = VersionField()

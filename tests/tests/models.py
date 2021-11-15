@@ -1,6 +1,6 @@
-from django.db import models
+from djongo import models
 
-from ool import VersionField, VersionedMixin
+from dol import VersionField, VersionedMixin
 
 
 class SimpleModel(VersionedMixin, models.Model):

@@ -5,9 +5,9 @@ from django.core.exceptions import ImproperlyConfigured
 from django.urls import reverse
 from django.test.client import Client
 from django import db
-from django.db import transaction
+from djongo import transaction
 
-from ool import ConcurrentUpdate
+from dol import ConcurrentUpdate
 
 from .models import (SimpleModel, ProxyModel, InheritedModel,
                      InheritedVersionedModel, ImproperlyConfiguredModel,

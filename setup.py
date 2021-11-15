@@ -7,15 +7,15 @@ def read(fname):
 
 
 setup(
-    name='django-optimistic-lock',
+    name='djongo-optimistic-lock',
     version='1.0.1.dev0',
-    description='Offline optimistic locking for Django',
-    url='https://github.com/gavinwahl/django-optimistic-lock',
+    description='Offline optimistic locking for Django (with Djongo)',
+    url='https://github.com/noelpuru/djongo-optimistic-lock',
     long_description=read('README.rst'),
     license='BSD',
     author='Gavin Wahl',
     author_email='gavinwahl@gmail.com',
-    packages=['ool'],
+    packages=['dol'],
     install_requires=['django >= 1.11'],
     classifiers=[
         'Development Status :: 4 - Beta',

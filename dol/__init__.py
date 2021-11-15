@@ -1,4 +1,4 @@
-from django.db import models
+from djongo import models
 from django import forms
 from django.core.exceptions import ImproperlyConfigured
 from django.contrib.admin.widgets import AdminIntegerFieldWidget

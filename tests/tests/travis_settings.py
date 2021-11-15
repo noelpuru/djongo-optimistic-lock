@@ -13,7 +13,7 @@ if os.environ['DB'] == 'sqlite':
 else:
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'ENGINE': 'djongo',
             'NAME': 'test_ool',
             'USER': 'postgres'
         }
